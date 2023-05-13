@@ -1,5 +1,5 @@
 <template>
-  <div>
+ <div>
     <h2>Produtos</h2>
     <div v-for="produto in produtos" :key="produto.id" class="product">
       <span>{{ produto.nome }} - R$ {{ produto.preco }}</span>
@@ -156,10 +156,10 @@ export default {
   .cart {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #2bff00;
+    border: 1px solid #5e5e5e;
     border-radius: 5px;
-    background-color: #2780d3;
-    color: #ff0000;
+    background-color: #878888;
+    color: #000000;
   }
   .cart h3 {
     margin-top: 0;
@@ -167,9 +167,9 @@ export default {
   .cart .product {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #9015b6;
+    border: 1px solid #4e4e4e;
     border-radius: 5px;
-    background-color: #931ec2;
+    background-color: #474747;
   }
   .cart .product span {
     display: inline-block;
@@ -230,5 +230,8 @@ export default {
     font-size: 24px;
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
+  }
+  .body{
+    background-color: rgb(255, 255, 255);
   }
 </style>
