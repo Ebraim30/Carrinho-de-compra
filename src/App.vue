@@ -131,9 +131,10 @@ export default {
   .product {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #5f1111;
+    border: 1px solid #3fee39ce;
     border-radius: 5px;
     background-color: #290285;
+    color: #ffffff;
   }
   .product span {
     display: inline-block;
@@ -158,6 +159,7 @@ export default {
     border: 1px solid #2bff00;
     border-radius: 5px;
     background-color: #2780d3;
+    color: #ff0000;
   }
   .cart h3 {
     margin-top: 0;
@@ -222,9 +224,11 @@ export default {
   h2 {
     font-size: 28px;
     margin-bottom: 10px;
+    color: #ff00d4;
   }
   h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: rgb(0, 0, 0);
   }
 </style>
