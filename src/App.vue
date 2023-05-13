@@ -125,21 +125,106 @@ export default {
 </script>
 
 <style scoped>
-.product {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 5px solid #4b2dcc;
-  background-color:purple;
-  color: black;
-}
-.cart {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #00ff15;
-  color: rgb(255, 255, 255);
-  background-color: #ff00b365;
-}
-.total {
-  font-weight: bold;
-}
+  body {
+    background: linear-gradient(to bottom right, #00f098, #f01607);
+  }
+  .product {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #5f1111;
+    border-radius: 5px;
+    background-color: #290285;
+  }
+  .product span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .product button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cart {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #2bff00;
+    border-radius: 5px;
+    background-color: #2780d3;
+  }
+  .cart h3 {
+    margin-top: 0;
+  }
+  .cart .product {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #9015b6;
+    border-radius: 5px;
+    background-color: #931ec2;
+  }
+  .cart .product span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .cart .product input {
+    width: 60px;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5c15b9;
+    font-size: 16px;
+  }
+  .cart .product button {
+    background-color: #ff1403;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cart .total {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+  .cart .total::before {
+    content: "Total: ";
+    
+  }
+  button {
+    background-color: #4caf54;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex ;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 </style>
